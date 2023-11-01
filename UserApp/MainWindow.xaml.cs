@@ -24,5 +24,14 @@ namespace UserApp
         {
             InitializeComponent();
         }
+
+        private void Button_Reg_Click(object sender, RoutedEventArgs e)
+        {
+            string login = textBoxLogin.Text;
+            string password = PassBox.Text;
+            string password2 = PassBox2.Text;
+            string email = textBoxEmail.Text;
+
+        }
     }
 }
