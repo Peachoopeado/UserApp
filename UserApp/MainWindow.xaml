@@ -15,6 +15,7 @@
             </Border.Effect>
             <StackPanel>
                 <TextBlock Text="Здоров" FontSize="30" HorizontalAlignment="Left" FontWeight="Bold"></TextBlock>
+                <TextBlock x:Name="exampleText"></TextBlock>
                 <Grid Margin="0 20 0 20">
                     <Button HorizontalAlignment="Left" Content="Регистрация"></Button>
                     <Button HorizontalAlignment="Right" Content="Войти" Style="{StaticResource MaterialDesignFlatButton}"></Button>
@@ -23,7 +24,7 @@
                 <TextBox x:Name="PassBox" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>
                 <TextBox x:Name="PassBox2" materialDesign:HintAssist.Hint="Повторите пароль" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>
                 <TextBox x:Name="textBoxEmail" materialDesign:HintAssist.Hint="E-Mail" Style="{StaticResource MaterialDesignFloatingHintTextBox}"></TextBox>
-                <Button Content="Зарегисрироваться" Margin="0 20 0 20" Click="Button_Reg_Click"></Button>
+                <Button Content="Зарегистрироваться" Margin="0 20 0 20" Click="Button_Reg_Click"></Button>
 
 
             </StackPanel>
